@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'HaginCapsMedium';
+    src: url('HaginCapsMedium.eot');
+    src: url('HaginCapsMediumeot?#iefix') format('embedded-opentype'),
+         url('HaginCapsMedium.woff') format('woff'),
+         url('HaginCapsMedium.ttf') format('truetype'),
+         url('HaginCapsMedium.svg#HaginCapsMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.logonubble {font-family:'Open Sans Condensed';font-weight:700;font-size:40px;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+   .menunubble {font-size:17px;letter-spacing: 1px;}
+   .menuitem {font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:15px;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+   .menuitemcs {opacity:0.2;font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:15px;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+      .menuitemlast{font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:0;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+   .menuitemlastcs{opacity:0.2;font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:0;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
