@@ -181,11 +181,10 @@
     </script>
     <script type="text/javascript" language="javascript" class="init">
         var laws = [
-            ["<span class='badge badge-light' id='LAC0001'>#LAC0001</span>", "Водный кодекс", "Федеральный закон", "<a href='/lib/laws/docs/LAC0001.html'><i class='fas fa-file-alt' aria-hidden='true'></i></a> <a href='  '><i class='fas fa-file-download' aria-hidden='true'></i></a>", "вода"],
-            ["<span class='badge badge-light' id='LAC0002'>#LAC0002</span>", "Гражданский кодекс (часть вторая)", "Федеральный закон", "<a href='/lib/laws/docs/LAC0002.html'><i class='fas fa-file-alt' aria-hidden='true'></i></a> <a href='  '><i class='fas fa-file-download' aria-hidden='true'></i></a>", " "],
-            ["<span class='badge badge-light' id='LAC0003'>#LAC0003</span>", "Гражданский кодекс (часть первая)", "Федеральный закон", "<a href='/lib/laws/docs/LAC0003.html'><i class='fas fa-file-alt' aria-hidden='true'></i></a> <a href='  '><i class='fas fa-file-download' aria-hidden='true'></i></a>", " "],
-            ["<span class='badge badge-light' id='LAC0004'>#LAC0004</span>", "Гражданский кодекс (часть третья)", "Федеральный закон", "<a href='/lib/laws/docs/LAC0004.html'><i class='fas fa-file-alt' aria-hidden='true'></i></a> <a href='  '><i class='fas fa-file-download' aria-hidden='true'></i></a>", " "],
-            ["<span class='badge badge-light' id='LAC0005'>#LAC0005</span>", "Гражданский кодекс (часть четвертая)", "Федеральный закон", "<a href='/lib/laws/docs/LAC0005.html'><i class='fas fa-file-alt' aria-hidden='true'></i></a> <a href='  '><i class='fas fa-file-download' aria-hidden='true'></i></a>", " "]
+            ["Исполнитель1", "Соисполнители", "Песня1", "Клип"],
+            ["Исполнитель1", "Соисполнители", "Песня2", "Клип"],
+            ["Исполнитель1", "Соисполнители", "Песня3", "Клип"],
+            ["Исполнитель2", "Соисполнители", "Песня1", "Клип"],
 
         ];
         $(document).ready(function () {
@@ -265,24 +264,20 @@
                     className: 'btn-light'
                 }],
                 columns: [{ // названия столбцов и, опционально, указание на скрытие их на конкретных разрешениях экранов
-                    title: "ID",
+                    title: "Исполнитель",
                     sWidth: '1%'
                 },
 
                 {
-                    title: "Название",
+                    title: "Соисполнители",
                     sWidth: '73%'
                 }, {
-                    title: "Тип",
+                    title: "Песня",
                     class: "desktop",
                     sWidth: '15%'
                 }, {
-                    title: "Файл",
+                    title: "Клип",
                     sWidth: '1%'
-                }, {
-                    title: "Теги",
-                    class: "desktop",
-                    sWidth: '10%'
                 }
                 ],
 
@@ -290,7 +285,7 @@
                     render: function (data, type, full, meta) {
                         return "<div class='text-wrap width-200'>" + data + "</div>";
                     },
-                    targets: [1, 4] // номера столбцов c переносом строк
+                    targets: [0, 1, 2] // номера столбцов c переносом строк
                 }],
 
                 bAutoWidth: false
