@@ -9,22 +9,7 @@
 
 
 
-
-
-
-
-
-@font-face {
-    font-family: 'HaginCapsMedium';
-    src: url('HaginCapsMedium.eot');
-    src: url('HaginCapsMediumeot?#iefix') format('embedded-opentype'),
-         url('HaginCapsMedium.woff') format('woff'),
-         url('HaginCapsMedium.ttf') format('truetype'),
-         url('HaginCapsMedium.svg#HaginCapsMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
+ 
 
 .logonubble {font-family:'Open Sans Condensed';font-weight:700;font-size:40px;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
    1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
