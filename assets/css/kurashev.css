@@ -1,0 +1,114 @@
+.logonubble {font-family:'Open Sans Condensed';font-weight:700;font-size:3rem;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+   .menunubble {font-size:17px;letter-spacing: 1px;}
+   .menuitem {font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:15px;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+   .menuitemcs {opacity:0.2;font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:15px;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+      .menuitemlast{font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:0;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+   .menuitemlastcs{opacity:0.2;font-family:'Open Sans Condensed', sans-serif;font-weight:300;text-decoration:none;color:#fff;padding-right:0;text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
+   1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
+   1px 1px 1px rgba(0,0,0,0.7); /* тёмная тень */}
+
+    #contact {
+            width: none;
+            float: left;
+            margin-left: -87px;
+            font-size: 80%;
+            text-decoration: none;
+            color: #fff;
+            z-index: 99999999;
+        }
+
+        #contact-personal {
+            width: none;
+            float: left;
+            padding-bottom: 10px;
+        }
+
+        #contact-work {
+            width: none;
+            float: left;
+            padding-bottom: 10px;
+            margin-left: 27px;
+        }
+
+        #contact-work {
+            padding-left: 2px;
+        }
+
+        #contact li li {
+            padding: 0px 0 0 15px;
+            color: #666;
+        }
+
+        #contact li.disclaimer {
+            clear: both;
+            padding: 12px 0 11px;
+            text-align: center;
+            background: url(../style/about-h3.png) repeat-x 0 -59px;
+        }
+
+        #contact li li a {
+            display: block;
+            padding-left: 23px;
+            background-position: 0 1px;
+            background-repeat: no-repeat;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        * {
+            list-style: none;
+        }
+
+        #content {
+            padding: 0;
+            overflow: hidden;
+            text-decoration: none;
+            color: #fff;
+        }
+  .dropdown {
+            margin-left: 0;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 50px;
+            padding: 5px 0;
+            z-index: 1;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            text-decoration: none;
+            color: #fff;
+            padding-right: 15px;
+            text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2),
+                /* наверх и влево */
+                1px 1px 1px rgba(255, 255, 255, 0.2),
+                /* вниз и вправо */
+                1px 1px 1px rgba(0, 0, 0, 0.7);
+        }
+
+        .dropdown:hover .dropdown-content,
+        .dropdown:active .dropdown-content {
+            display: block;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            text-decoration: none;
+            color: #fff;
+            padding-right: 15px;
+            text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2),
+                /* наверх и влево */
+                1px 1px 1px rgba(255, 255, 255, 0.2),
+                /* вниз и вправо */
+                1px 1px 1px rgba(0, 0, 0, 0.7);}
+
+
+
