@@ -1,88 +1,9 @@
-<!doctype html>
-<html lang="ru">
+---
+layout: default
+title: "Yevgeniy Brikman: Home Page"
+header_title: Yevgeniy Brikman
+include_header: home_header.html
+nav_item: home
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="Курашев Антон Сергеевич">
-    <meta name="google-site-verification" content="t14GwbMvOjYfl39nFZHvY0fvqK-OQ181K7FzJ4oqhTI" />
-    <title>Курашев Антон Сергеевич</title>
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width">
-    <!-- FontAwesome CDN -->
-    <script src="https://kit.fontawesome.com/8f1bb4cb4f.js"></script>
-    <!-- Google Fonts CDN -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=cyrillic,cyrillic-ext"
-        rel="stylesheet">
-    <script
-        type="text/javascript">function openbox(id) { display = document.getElementById(id).style.display; if (display == 'none') { document.getElementById(id).style.display = 'block'; } else { document.getElementById(id).style.display = 'none'; } }</script>
-    <link href="/assets/css/kurashev.css" rel="stylesheet">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1347128-62"></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-1347128-62'); </script>
-</head>
-
-<body style="margin: 0; overflow: hidden; background: #000; position: relative;">
-    <div style="position: absolute; top: 5%; left: 10%; color: #fff; padding: 5px 10px; z-index: 20;line-height:1.7em">
-        <div style="font-family:'Open Sans', sans-serif; display: inline-block;">
-            <span class="logonubble" style="position:relative; z-index:1;">КУРАШЕВ АНТОН СЕРГЕЕВИЧ</span><br />
-            <div class="dropdown">
-                <a href="#" class="menuitem">
-                    <i style="color:white;padding-right:5px;margin-bottom:5px" class="fas fa-address-card fa-fw"
-                        aria-hidden="true"></i> Контакты
-                    <span style="margin-left:3px;display: inline-block; transform: rotate(90deg);">›</span>
-                </a>
-                <div class="dropdown-content" style="font-size:100%;">
-                    <a href="tel:+79657421035" class="menuitem">
-                        <i style="color:white;padding-right:5px;margin-bottom:5px" class="fas fa-phone-square fa-fw"
-                            aria-hidden="true"></i> +7 965 742-1035
-                    </a>
-                    <br />
-                    <a href="mailto:a.s.kurashev+kurashev.com@gmail.com" class="menuitem">
-                        <i style="color:white;padding-right:5px;margin-bottom:5px" class="fas fa-envelope-square fa-fw"
-                            aria-hidden="true"></i> a.s.kurashev@gmail.com
-                    </a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="https://environmental.kurashev.com" class="menuitem">
-                    <i style="color:white;padding-right:5px;margin-bottom:5px" class="fa fa-university fa-fw"
-                        aria-hidden="true"></i> Environmental
-                </a>
-            </div>
-             <div class="dropdown">
-                <a href="https://biosphere.kurashev.com" class="menuitem">
-                    <i style="color:white;padding-right:5px;margin-bottom:5px" class="fa fa-globe fa-fw"
-                        aria-hidden="true"></i> Biosphere
-                </a>
-            </div>
-            <!--<div class="dropdown"><a href="https://blog.kurashev.com" class="menuitem"><i
-                        style="color:white;padding-right:5px;margin-bottom:5px" class="fas fa-comment-dots fa-fw"
-                        aria-hidden="true"></i> Блог</a></div>
-            <div class="dropdown" style="text-decoration:line-through"><a href="https://anthecology.org"
-                    class="menuitem"><span style="color:white;padding-right:5px;margin-bottom:5px"><img
-                            style="width: 13px;" src="/assets/img/anthecology.png" /></span>
-                    Антэкология</a></div>-->
-        </div>
-    </div>
-    <div class="fotorama" data-width="100%" data-height="100%" data-fit="cover" data-nav="none" data-autoplay="5000"
-        data-loop="true">
-        <img src="/assets/img/photos/index/2.jpg">
-        <img src="/assets/img/photos/index/3.jpg">
-        <img src="/assets/img/photos/index/4.jpg">
-        <img src="/assets/img/photos/index/5.jpg">
-        <img src="/assets/img/photos/index/6.jpg">
-    </div>
-    <div style="position: absolute; bottom: 0; left: 10%; color: #fff; padding: 5px 10px; z-index: 20;">
-        <p>
-            <span class="menuitemlast">© 1985–2019 Курашев Антон Сергеевич</span>
-        </p>
-    </div>
-    <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <!-- Fotorama CDN -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-</body>
-
-</html>
+{% include about.html %}
